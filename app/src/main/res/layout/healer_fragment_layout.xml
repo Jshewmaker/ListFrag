@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RatingBar
+        android:id="@+id/strengthRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="100dp" />
+
+    <RatingBar
+        android:id="@+id/intellectRatingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/strengthRatingBar"
+        android:layout_alignStart="@+id/strengthRatingBar"
+        android:layout_below="@+id/strengthRatingBar"
+        android:layout_marginTop="20dp" />
+
+    <RatingBar
+        android:id="@+id/wisdomRatingBar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/intellectRatingBar2"
+        android:layout_alignStart="@+id/intellectRatingBar2"
+        android:layout_below="@+id/intellectRatingBar2"
+        android:layout_marginTop="20dp" />
+
+    <RatingBar
+        android:id="@+id/dexterityRatingBar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wisdomRatingBar3"
+        android:layout_alignStart="@+id/wisdomRatingBar3"
+        android:layout_below="@+id/wisdomRatingBar3"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/strengthRatingBar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/strengthTV"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/intellectRatingBar2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/intellectTV"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/wisdomRatingBar3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/wisdomTV"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/dexterityRatingBar4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/dexterityTV"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginLeft="114dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/TitleHealerTV"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"/>
+
+</RelativeLayout>

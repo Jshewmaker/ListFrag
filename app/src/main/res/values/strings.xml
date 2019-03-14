@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RPG_Game</string>
+
+    <string-array name="RPG_Classes">
+        <item>Warrior</item>
+        <item>Mage</item>
+        <item>Healer</item>
+        <item>Hunter</item>
+        <item>Paladin</item>
+    </string-array>
+
+    <string name="strengthTV">Strength</string>
+    <string name="intellectTV">Intellect</string>
+    <string name="wisdomTV">Wisdom</string>
+    <string name="dexterityTV">Dexterity</string>
+    <string name="container">container</string>
+    <string name="TitleWarriorTV">Warrior</string>
+    <string name="TitleHealerTV">Healer</string>
+    <string name="TitleHunterTV">Hunter</string>
+    <string name="TitleMageTV">Mage</string>
+    <string name="TitlePaladinTV">Paladin</string>
+    <string name="titleTV">Warrior</string>
+
+</resources>

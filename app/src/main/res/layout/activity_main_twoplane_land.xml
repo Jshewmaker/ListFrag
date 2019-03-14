@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/primary_fragment"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:name="com.yeti_llc.listfragtest1.MyListFragment"/>
+
+    <FrameLayout
+        android:id="@+id/class_frame"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    </FrameLayout>
+</LinearLayout>
